@@ -12,9 +12,9 @@
     <title>Document</title>
 </head>
 
-<body class="m-12">
+<body class="">
     <!-- Navigation section -->
-    <section>
+    <section class="m-12">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -53,7 +53,7 @@
 
     <!-- Banner section -->
 
-    <section>
+    <section class="m-12">
         <div class="hero min-h-screen rounded-2xl" style="background-image: url(images/banner.png);">
             <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -70,8 +70,9 @@
 
 
     <!-- Card section -->
-    <section class="flex flex-col m-5 justify-center items-center  lg:flex-row -m-16 gap-4 relative">
-        <div class="flex justify-evenly items-center bg-white border-b-4 border-lime-500 rounded-3xl w-72 h-32 justify-center items-center">
+    <section class="flex flex-col m-5 justify-center items-center m-12 lg:flex-row -m-16 gap-4 relative">
+        <div
+            class="flex justify-evenly items-center bg-white border-b-4 border-lime-500 rounded-3xl w-72 h-32 justify-center items-center">
             <div>
                 <img src="images/people.png" alt="">
             </div>
@@ -81,7 +82,8 @@
 
             </div>
         </div>
-        <div class="flex justify-evenly items-center bg-white rounded-3xl border-b-4 border-lime-500 w-72 h-32 justify-center items-center">
+        <div
+            class="flex justify-evenly items-center bg-white rounded-3xl border-b-4 border-lime-500 w-72 h-32 justify-center items-center">
             <div>
                 <img src="images/ticket-cupon.png" alt="">
             </div>
@@ -91,7 +93,8 @@
 
             </div>
         </div>
-        <div class="flex justify-evenly items-center bg-white rounded-3xl border-b-4 border-lime-500 w-72 h-32 justify-center items-center">
+        <div
+            class="flex justify-evenly items-center bg-white rounded-3xl border-b-4 border-lime-500 w-72 h-32 justify-center items-center">
             <div>
                 <img src="images/stoppage.png" alt="">
             </div>
@@ -105,6 +108,132 @@
 
     <!-- Best offer section -->
 
+    <section>
+        <h2 class="font-bold text-2xl text-center mt-16">Best offers for you</h2>
+        <!-- Coupon div started -->
+        <div class="flex flex-col justify-center items-center gap-5 mt-10 lg:flex-row">
+            <!-- 15% off coupon -->
+            <div>
+                <div class="bg-amber-500 w-full flex justify-evenly rounded-2xl lg:w-96">
+                    <div class="w-64 flex flex-col justify-center items-center p-5">
+                        <h2 class="text-4xl font-bold ml-0 ">15% OFF</h2>
+                        <h5 class="font-bold ml-0 ">on your next purchase</h5>
+                        <p class="text-slate-900">use by january 2024</p>
+                    </div>
+                    <img class="h-40 mx-auto" src="images/info-devider.png" alt="">
+                    <div class="w-36 flex flex-col justify-center items-center p-5 m-">
+                        <h2 class="text-4xl">NEW15</h2>
+                        <p class="text-slate-900">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20%  off coupon -->
+            <div>
+                <div class="bg-amber-500 w-full flex justify-evenly rounded-2xl lg:w-96">
+                    <div class="w-64 flex flex-col justify-center items-center p-5">
+                        <h2 class="text-4xl font-bold ml-0 ">20% OFF</h2>
+                        <h5 class="font-bold ml-0 ">on your next purchase</h5>
+                        <p class="text-slate-900">use by january 2024</p>
+                    </div>
+                    <img class="h-40 mx-auto" src="images/info-devider.png" alt="">
+                    <div class="w-36 flex flex-col justify-center items-center p-5 m-">
+                        <h2 class="text-4xl">Couple 20</h2>
+                        <p class="text-slate-900">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Coupon div ended -->
+    </section>
+
+    <!-- See all offers section -->
+
+    <section class="flex items-center justify-center m-12">
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg border-1 border-green-400 text-green-400">See All
+            Offers</button>
+    </section>
+
+
+    <!-- Ticket section here -->
+
+    <section class="m-5 bg-slate-100">
+        <div class="flex flex-col justify-center items-center border-t-2 border-t-green-500 m-0 rounded-t-3xl">
+            <h3 class="text-2xl font-bold mt-12">P.H Paribahan</h3>
+            <p class="mt-4 text-stone-600 text-center">This is a place from where you can book your desired ticket with
+                your choice. If
+                you want the best seat never<br> think again for reserving a seat.
+                If you want to grab the desired one book now.</p>
+        </div>
+
+
+        <div>
+            <div class="hero min-h-screen max-w-full bg-white rounded-3xl">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <div class="flex justify-center items-center flex-col">
+                        <img src="images/fare.png" alt="">
+                        <h2 class="text-2xl font-bold">550 Taka</h2>
+                        <p>Per Seat</p>
+                    </div>
+                    <img src="images/info-devider.png" class="min-h-screen " />
+                    <div>
+                        <div class="flex">
+                            <div class="flex justify-between">
+                                <div>
+                                    <img src="images/bus-logo.png" alt="">
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-bold">Greenline Paribahan</h3>
+                                    <p class="text-neutral-500">Coach-009-WEB ! AC_Business</p>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn">
+                                    Button
+                                    <img src="images/seat-green-filled.png" alt="">
+                                </button>
+                            </div>
+    
+    
+    
+                            
+    
+    
+                        </div>
+
+
+
+                        <!-- Route description -->
+                        <div class="card max-w-full bg-slate-100 text-neutral-content">
+                            <div class="card-body items-center text-center  ">
+                              <div class="flex justify-between gap-16 text-black border-b-dotted borde border-b-black">
+                                <h3>Route</h3>
+                                <h3>Dhaka-Sylhet</h3>
+                              </div>
+                              <div class="flex justify-between gap-16 text-black border-b-dotted borde border-b-black">
+                                <h3>Departure time</h3>
+                                <h3>9.00PM</h3>
+                              </div>
+                              <div class="flex justify-between gap-16 text-black border-b-dotted borde border-b-black">
+                                <h3>Route</h3>
+                                <h3>Dhaka-Sylhet</h3>
+                              </div>
+
+                              <div class="flex gap-4">
+                                <button class="btn btn-outline">Boarding point-Laxmipur</button>
+                                <button class="btn btn-outline">Dropping point-Bogura</button>
+                                <button class="btn btn-outline">Est.Time - 11 hour</button>
+
+
+                              </div>
+                              
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
